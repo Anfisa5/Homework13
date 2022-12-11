@@ -11,5 +11,4 @@ public class Smartphone extends Product {
         super(id, name, price);
         this.vendor = manufacturer;
     }
-
 }
