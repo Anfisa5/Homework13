@@ -18,7 +18,7 @@ public class RepositoryTest {
         repo.removeById(product2.getId());
 
         Product[] expected = {product1, product3};
-        Product[] actyal = repo.findAll();
-        Assertions.assertArrayEquals(expected, actyal);
+        Product[] actual = repo.findAll();
+        Assertions.assertArrayEquals(expected, actual);
     }
 }
